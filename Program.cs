@@ -6,13 +6,14 @@ namespace _44663
     {
         static void Main(string[] args)
         {
-            var sum = 0;
-            //var age = 0.0;
-            //var canBuy = false;
-            //var EXIT_CHAR = 'q';
-            //var name = ""/String.Empty;
-            //decimal unitCost = 0.0;// var unitCost = 0.0m;
-            // var breed = "";
+           // var sum = 0;
+           
+            var age = 0.0;
+            var canBuy = false;
+            var EXIT_CHAR = 'q';
+            var name = ""/String.Empty;
+            decimal unitCost = 0.0;// var unitCost = 0.0m;
+            var brand = "";
 
 
 
@@ -20,38 +21,38 @@ namespace _44663
 
             while(true){
             //greet the user.....
-            Console.WriteLine("Hello welcome to the avings app user!");
+            Console.WriteLine("Hello welcome to the savings app user!");
 
 
             //get their name...
 
-           // while(name == ""){
-           // Console.WriteLine($"Enter ur name");
-            //name = Console.ReadLine();
-            //}
-           // Console.WriteLine($"Your name is{name}.")
+            while(name == ""){
+            Console.WriteLine($"Enter ur name");
+            name = Console.ReadLine();
+            }
+            Console.WriteLine($"Your name is{name}.")
 
 
             //get their age...
 
-            // while(age == 0.0){
-            //Console.WriteLine($"Enter ur age");
-            //var ans = Console.ReadLine();
-            //age = Convert.ToDouble(ans);
-            //}
-            //Console.WriteLine($"Your name is{age}.")
+             while(age == 0.0){
+            Console.WriteLine($"Enter ur age");
+            var ans = Console.ReadLine();
+            age = Convert.ToDouble(ans);
+            }
+            Console.WriteLine($"Your name is{age}.")
 
 
 
-            //get the breed...
+            //get the brand...
 
-            //get the breed(switch)
+            //get the brand(switch)
             switch(){
-                case "coach":
+                case "Coach":
                     type = "Torte";
                     unitcost = 75.0m;
                     break;
-                case "pom":
+                case "Tory Burch":
                     brees = "sling bag";
                     unitCost = 100m;
                     break;
@@ -59,11 +60,13 @@ namespace _44663
                 break;
 
             }
-            //Console.WriteLine($"Your name is{breed}.")
+            Console.WriteLine($"Your brand name is{brand}.")
 
 
             //add money to their savings....
-            while(true){}
+            while(true){
+                
+            }
 
             Console.WriteLine("enter a number or enter q to quit");
             String str = Console.ReadLine();
