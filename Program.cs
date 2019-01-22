@@ -14,7 +14,7 @@ namespace _44663
             var name = ""/String.Empty;
             decimal unitCost = 0.0;// var unitCost = 0.0m;
             var brand = "";
-
+            var total = 1200.0m
 
 
 
@@ -64,10 +64,16 @@ namespace _44663
 
 
             //add money to their savings....
-            while(true){
-                
+            while(!canBuy){
+ sum = sum + value;
+ if(sum = total){
+     canBuy = true;
+ }
             }
-
+            var sum = 0;
+            while(sum<= total){
+                sum = sum + value;
+            }
             Console.WriteLine("enter a number or enter q to quit");
             String str = Console.ReadLine();
             if(str =="q"){
