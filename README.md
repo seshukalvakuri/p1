@@ -14,4 +14,4 @@ Name
 Age
 Amount to be saved
 
-![output]()
+![output](https://github.com/seshukalvakuri/p1/blob/master/Screenshot%20(156).png)
